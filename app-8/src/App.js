@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    axios.get(`${this.state.baseUrl}spells/204`).then(res => {
+    axios.get(`${this.state.baseUrl}spells/110`).then(res => {
       this.setState({spells: res.data})
     })
   }
